@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	.navigateBar Navigate to:
+		span.navigateOption
+			a(href="/locatorDirection") Locator 
+		span
+			a(href="/dogsDirection") Dogs
+	h1.bigBanner #{title}
+	h1#resourcesBanner #{title2}
+
+	.row.mainContainer
+
+			div
+				a(href="/resourceDocs/ADOPTIONFORMS.pdf" target='blank') Adoption forms 
+				p Everything you need to facilitate an adoption of a Western Dog Rescue dog.  
+			div
+				a(href="/resourceDocs/HOMECHECKFORMS.pdf" target='blank') Homecheck forms
+				p Includes a checklist of items to be inspected at a potential adopter's residence.  
+			div
+				a(href="/resourceDocs/VOLUNTEERHANDBOOK.pdf" target='blank') Volunteer handbook
+				p Includes information such as general facts about Western Dogs Rescue, guidelines for foster homes, and the adoption process.
+			div		
+				a(href="/resourceDocs/FAQS.pdf" target='blank') Frequently asked questions
+				p A list of questions commonly asked about the rescue.  
+
+	

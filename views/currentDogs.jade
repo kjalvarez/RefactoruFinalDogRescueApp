@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	.navigateBar Navigate to:
+		span.navigateOption
+			a(href="/locatorDirection") Locator 
+		span
+			a(href="/resourcesDirection") Resources
+	h1.bigBanner #{title}
+
+	h1#resourcesBanner #{title2} 
+	div.addDog Click <a href="addDogDirection">here</a> to add a new dog
+
+	for dog in dogs
+		.dogListContainer
+			span
+				img(class='dogImage' src='#{dog.photo}')
+			span.dogInfo
+				p.dogListHeader #{dog.name}, #{dog.age} #{dog.sex} #{dog.breed}
+				p <em>About me:</em> #{dog.bio}
+				p <em>Foster:</em> #{dog.foster}
+	
+		
+

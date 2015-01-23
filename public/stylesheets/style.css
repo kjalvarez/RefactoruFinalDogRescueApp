@@ -1,0 +1,314 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-image: url(/images/pawprints.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Buda', cursive;
+}
+
+a {
+	color: #00B7FF;
+
+}
+
+.loginHelpBox {
+	font-size: 24px;
+	margin-top: 1%;
+}
+#indexBanner {
+	background-color: white;
+	font-size: 48px;
+	width: 65%;
+	text-align: center;
+	opacity: .6;
+	border-radius: 10px;
+	padding: 5px;
+	border: solid #926239 10px;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+
+.mainContainer {
+	font-size: 24px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	border: solid #926239;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	
+}
+
+.indexSelector {
+
+	display: inline-block;
+	min-height: 300px;
+	width: 30%;
+	vertical-align: top;
+	border-radius: 15px;
+	border: solid #f5f5dc;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #f5f5dc;
+	background-color: #97694F;
+	padding: 2%;
+	opacity: .7;
+	margin-bottom: 20px;
+
+}
+
+.successMainContainer {
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	font-size: 36px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	border: solid #926239;
+}
+
+#confusedDog {
+	horizontal-align: left;
+	width: 150px;
+	border-radius: 50px;
+	height: 100px;
+	border: solid #926239;
+	vertical-align: middle; 
+
+}
+
+#resourcesBanner {
+	background-color: white;
+	opacity: .6;
+	border-radius: 10px;
+	border: solid #926239 10px;
+	width: 30%;
+	text-align: center;
+	font-size: 56px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bigBanner {
+	font-size: 96px;
+	color: #f5f5dc;
+	text-align: center;
+
+}
+
+.frontImage {
+	border: solid #926239;
+	border-radius: 65px;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+
+#loginBox {
+	background-color: white;
+	padding: 15px;
+	opacity: .6;
+	border-radius: 10px;
+	border: solid #926239 10px;
+	font-size: 36px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+#imageContainer {
+	text-align: center;
+	padding: 10px;
+}
+
+#loginButton {
+	background-color: #A4D3EE;
+	width: 35%;
+	border-radius: 10px;
+}
+
+.navigateBar {
+	width: 40%;
+	color: #f5f5dc;
+	margin-left: 60%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	background-color: #97694F;
+	padding: 15px;
+	opacity: .7;
+	border-radius: 10px;
+	border: solid #FAF0E6;
+	
+}
+
+.successNavigateBar {
+	display: inline-block;
+	margin-top: 10px;
+	width: 50%;
+	text-align: center;
+	font-size: 24px;
+	background-color: #97694F;
+	padding: 15px;
+	opacity: .7;
+	border-radius: 10px;
+	border: solid #FAF0E6;
+	color: #f5f5dc;
+	
+}
+
+.navigateOption {
+	padding: 20px;
+}
+
+.dogListContainer {
+	font-size: 24px;
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	border: solid #926239;
+	width: 70%;
+	margin-bottom: 2%;
+}
+
+
+.dogInfo {
+	display: inline-block;
+	padding: 15px;
+	width: 75%;
+}
+
+.dogImage {
+	vertical-align: top;
+	width: 20%;
+	margin-bottom: 5px;
+
+}
+
+.dogListHeader {
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+.dogImage {
+	border-radius: 10px;
+	border: solid #926239;
+}
+
+img {
+	vertical-align: top;
+}
+
+.sectionTitle {
+	text-decoration: underline;
+}
+
+.addDog {
+	border-radius: 10px;
+	border: solid #926239;
+	margin-left: 80%;
+	font-size: 24px;
+	text-align: center;
+	background-color: #99CDC9;
+	opacity: .8;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+.newDogContainer {
+	font-size: 24px;
+	padding: 10px;
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	border: solid #926239;
+	margin-right: 20%;
+	margin-left: 20%;
+	
+}
+.linkColor {
+	color: black;
+}
+.btn {
+	margin-left: 30%;
+	background-color: #A4D3EE;
+	width: 25%;
+	}
+
+.indexIcon {
+	width: 100px;
+	height: 100px;
+	background-color: #f5f5dc;
+	border-radius: 10px; 
+	border: solid black;
+	padding: 5px;
+	margin-bottom: 2%;
+	text-align: center;
+
+}
+ .indexLink {
+ 	color: black;
+ 	text-align: center;
+ 	background-color: #A4D3EE;
+ 	border-radius: 10px;
+ 	border: solid #d3d3d3;
+ 	padding: 5px;
+ }
+
+ .locateNavigateBar {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 1%;
+	width: 45%;
+	text-align: center;
+	font-size: 24px;
+	background-color: #97694F;
+	padding: 15px;
+	opacity: .7;
+	border-radius: 10px;
+	border: solid #FAF0E6;
+	color: #f5f5dc;
+	
+}
+
+.fosterContainer {
+	font-size: 24px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	border: solid #926239;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 18%;
+	margin-right: 18%;
+	text-align: center;
+
+} 
+
+#findButton {
+	background-color: #A4D3EE;
+	width: 35%;
+	border-radius: 10px;
+
+}
+
+.searchIcon {
+	width: 30%;
+	border-radius: 10px; 
+	border: solid black;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}

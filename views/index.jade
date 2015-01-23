@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	h1.bigBanner #{title}
+	h1#indexBanner #{title2}
+
+	.mainContainer
+
+		.indexSelector
+			img(class = 'indexIcon' src='/images/locatorIcon.png')
+			p Search open foster homes in the state of Colorado, and locate them on a map.
+			a.indexLink(href="locatorDirection") Locate!
+
+		.indexSelector
+			img(class ="indexIcon" src='/images/indexDogIcon.png')
+			p Information about each dog in the rescue's care, and an option to add a dog.
+			a.indexLink(type= "button" href="dogsDirection") See the dogs!
+
+		.indexSelector
+			img(class="indexIcon" src='/images/resourcesIcon.png')
+			p Forms needed for any adoption or homecheck, and the volunteer handbook.
+			a.indexLink(href="resourcesDirection") View resources
+
+		p <img id='confusedDog' src='/images/confusedPup.jpg'> Don't see what you need?  Please email <a>rescue@westerndogs.org</a> with additional questions. 

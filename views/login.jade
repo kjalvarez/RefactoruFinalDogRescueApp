@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+	div
+	
+	h1.bigBanner #{title} 
+	#loginBox Volunteer login 
+		p Username: <input></input>
+		p Password: <input></input>
+		button#loginButton(type="button") <a class="linkColor" href="indexDirection">Sign in</a>
+		div.loginHelpBox
+			p Forgot password or username? Click <a>here</a> 
+			p New volunteer? Register <a>here</a>
+
+	#imageContainer
+		<img class='frontImage' src=/images/mandd.jpg>
+		
+		<img class='frontImage' src=/images/adog.jpg>
+		
+		<img class='frontImage' src=/images/zbike.jpg>
+
+	

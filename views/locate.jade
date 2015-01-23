@@ -1,0 +1,26 @@
+extends layout
+
+block content
+	.navigateBar Navigate to:
+		span.navigateOption
+			a(href="/ResourcesDirection") Resources
+		span
+			a(href="/dogsDirection") Dogs
+	h1.bigBanner #{title}
+	h1#resourcesBanner #{title2}
+	div.center
+		div.locateNavigateBar 
+			img(class= "searchIcon" src='/images/ColoradoFlag.png')
+			p Select the button below to show contact information and relative locations for foster homes in Colorado.
+			div
+				button(id="findButton" class= "linkColor" type="button") Search!</a>
+	
+	.fosterContainer
+		.attach
+
+	.mainContainer
+		//- div.locateNavigateBar To search short-term foster homes located in Texas, New Mexico and Kansas, click <a>here</a>.
+		iframe(width="100%" height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCvHoFwbiQG5VD5MrCYbNB9FnHyQwL9h2Q&q=80207")
+
+
+	

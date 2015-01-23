@@ -1,0 +1,49 @@
+
+extends layout
+
+block content
+	.navigateBar Navigate to:
+		span.navigateOption
+			a(href="/locatorDirection") Locator 
+		span
+			a(href="/resourcesDirection") Resources
+	h1.bigBanner #{title}
+	h1#resourcesBanner #{title2} 
+
+	.newDogContainer
+
+		form(class= "form-horizontal" role="form" action="/addDogAction" method="post")
+
+			div.form-group
+				label(class= "col-sm-4 control-label" for="name") Name:
+				.col-sm-6
+					input(type="name" class="form-control" name= "name")
+			div.form-group
+				label(class= "col-sm-4 control-label" for="name") Age:
+				.col-sm-6
+					input(type="name" class="form-control" name="age")
+			div.form-group
+				label(class= "col-sm-4 control-label" for="name") Breed:
+				.col-sm-6
+					input(type="name" class="form-control" name="breed")
+			div.form-group
+				label(class= "col-lg-4 control-label" for="name") Sex:
+				.col-sm-6
+					input(type="name" class="form-control" name="sex")
+			div.form-group
+				label(class= "col-lg-4 control-label" for="name") Foster home contact:
+				.col-sm-6
+					input(type="name" class="form-control" name="foster")
+			div.form-group
+				label(class= "col-sm-4 control-label" for="name") Biography:
+				.col-sm-6
+					input(type="name" class="form-control" name="biography")
+			div.form-group
+				label(class= "col-sm-4 control-label" for="name") Image(URL):
+				.col-sm-6
+					input(type="name" class="form-control" name="photo")
+				.form-group
+					.col-sm-offset-2.col-sm-10
+						button(type="submit" class="btn btn-default") Submit
+
+			

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+
+	h1.bigBanner #{title} 
+
+	.successMainContainer
+		p Success!  This dog has been added.    
+		p 
+		.successNavigateBar Navigate to:
+			span.navigateOption
+				a(href="/locatorDirection") Locator 
+			span.navigateOption
+				a(href="/dogsDirection") Dogs
+			span.navigateOption
+				a(href="/resourcesDirection") Resources
